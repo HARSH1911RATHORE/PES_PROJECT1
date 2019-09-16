@@ -38,7 +38,6 @@ int main()
         }
                                                                                         /*Prints the input character code,
                                                                                            its type and ascii value*/
-
         printf("Code:%d  \t \t type:%s         \t \t ASCII:%c\n",input[i],Type,input[i]);
     }
 
