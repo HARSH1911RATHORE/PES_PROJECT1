@@ -9,10 +9,10 @@ C program that will take as input a numeric value, a radix, and an operand size.
     
     PROGRAM 2:
 C program which tests from a set of input values whether a given character code is 
-•	lower case
-•	upper case
-•	digit
-•	white space (like null, backspace, space, tabs, etc.)
+*	lower case
+*	upper case
+*	digit
+*	white space (like null, backspace, space, tabs, etc.)
 •	or a special character (like ! or >) in ASCII.  
 For each input set value, the program prints the specific Code, Type and ASCII value in the output console.
 Input set:  {66,114,117,99,101,32,83,97,121,115,32,72,105,33,7,9,50,48,49,57}
