@@ -10,9 +10,10 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+#include <stdint.h>
 int main()
 {
-    int i;                                                                               /*i is a counter for the loop*/
+    int32_t i;                                                                               /*i is a counter for the loop*/
     char Type1[25]="digit     ";                                                         /*store the character code results in array*/
     char Type2[25]="lowercase";
     char Type3[25]="uppercase";
