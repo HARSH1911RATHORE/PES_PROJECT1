@@ -1,3 +1,12 @@
+/**
+ *@file PES_PROJECT1_PROGRAM1.h
+ *@brief TAKES NUMERICAL INPUT OF RADIX VALUE, OPERAND SIZE AND NUMBER AND PRINTS THE OUTPUT
+ *used online gdb,code blocks and gcc development environment on windows for compiling,debugging, running the program
+ *@author Harsh Rathore 
+ *@date September 14 2019 
+ *@version 1.0
+ *
+ */ 
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
