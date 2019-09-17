@@ -27,7 +27,7 @@
 *
 *@return void
 */
-void dec2bin (int Decimal, int op_size);
+void dec2bin (int32_t Decimal, int32_t op_size);
 
 /**
 *@brief converts decimal equivalent of number into octal form
@@ -38,7 +38,7 @@ void dec2bin (int Decimal, int op_size);
 *
 *@return int
 */
-int dec2oct (int dec);
+int32_t dec2oct (int32_t dec);
 
 /**
 *@brief converts decimal equivalent of number into hexadecimal form
@@ -49,7 +49,7 @@ int dec2oct (int dec);
 *
 *@return int
 */
-int dec2hex (int dec);
+int32_t dec2hex (int32_t dec);
 
 /**
 *@brief Calculates sign 1's complement of input
@@ -61,7 +61,7 @@ int dec2hex (int dec);
 *
 *@return int
 */
-int sign1comp (int Decimal, int op_size);
+int32_t sign1comp (int32_t Decimal, int32_t op_size);
 
 /**
 *@brief converts decimal equivalent of sign 1's complement
@@ -74,7 +74,7 @@ int sign1comp (int Decimal, int op_size);
 *
 *@return void
 */
-void sign1comp_dec2bin (int Sign1complement_dec,int op_size);
+void sign1comp_dec2bin (int32_t Sign1complement_dec,int32_t op_size);
 
 
 /**
@@ -88,7 +88,7 @@ void sign1comp_dec2bin (int Sign1complement_dec,int op_size);
 *
 *@return void
 */
-void sign2comp_dec2bin (int Sign2complement_dec,int op_size);
+void sign2comp_dec2bin (int32_t Sign2complement_dec,int32_t op_size);
 
 
 /**
@@ -102,7 +102,7 @@ void sign2comp_dec2bin (int Sign2complement_dec,int op_size);
 *
 *@return int
 */
-int sign_magnitude_dec (int Decimal, int op_size);
+int32_t sign_magnitude_dec (int32_t Decimal,int32_t op_size);
 
 /**
 *@brief converts decimal equivalent of sign magnitude
@@ -115,6 +115,6 @@ int sign_magnitude_dec (int Decimal, int op_size);
 *
 *@return void
 */
-void sign_mag_dec2bin (int Signed_magnitude_dec,int op_size);
+void sign_mag_dec2bin (int32_t Signed_magnitude_dec,int32_t op_size);
 
 #endif	/*	PES_PROJECT1_PROGRAM1.h */
