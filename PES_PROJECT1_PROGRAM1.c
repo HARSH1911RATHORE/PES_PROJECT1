@@ -8,21 +8,7 @@
  *
  */
 
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#include<stdint.h>
-int32_t dec (int32_t r, int32_t n);                                         /*Function prototype declaration of decimal,octal,hexadecimal
-                                                                            sign1complement,sign2complement,sign magnitude*/
-void dec2bin (int32_t Decimal, int32_t op_size);
-int32_t dec2oct (int32_t dec);
-int32_t dec2hex (int32_t dec);
-int32_t sign1comp (int32_t Decimal, int32_t op_size);
-void sign1comp_dec2bin (int32_t Sign1complement_dec,int32_t op_size);
-void sign2comp_dec2bin (int32_t Sign2complement_dec,int32_t op_size);
-int32_t sign_magnitude_dec (int32_t Decimal, int32_t op_size);
-void sign_mag_dec2bin (int32_t Signed_magnitude_dec,int32_t op_size);
-
+#include "PES_PROJECT1_PROGTRAM1.h"
 
 int main ()
 {
