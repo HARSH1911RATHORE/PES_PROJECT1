@@ -1,5 +1,5 @@
 /**
- *@file PES_PROJECT1_PROGRAM1.h
+ *@file PES_PROJECT1_PROGRAM1.c
  *@brief TAKES NUMERICAL INPUT OF RADIX VALUE, OPERAND SIZE AND NUMBER AND PRINTS THE OUTPUT
  *used online gdb,code blocks and gcc development environment on windows for compiling,debugging, running the program
  *@author Harsh Rathore 
