@@ -1,5 +1,5 @@
 /**
- *@file PES_PROJECT1_PROGRAM2.h
+ *@file PES_PROJECT1_PROGRAM2.c
  *@brief checks a set of input value and prints if they are digits,lowercase,secial character,uppercase,whitespace 
  *used online gdb,code blocks and gcc development environment on windows for compiling,debugging, running the program
  *@author Harsh Rathore 
