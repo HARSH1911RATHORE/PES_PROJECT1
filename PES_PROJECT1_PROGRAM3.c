@@ -11,7 +11,7 @@
 void dec2bin(int Decimal);                      /*Function prototype to convert decimal to binary */
 int main()
 {
-    int input=0xCAFE,check1,check2,check3,check4,operation1,operation2,operation3,byte_rev,rot4left,rot8right;
+    int32_t input=0xCAFE,check1,check2,check3,check4,operation1,operation2,operation3,byte_rev,rot4left,rot8right;
     printf("The input in Hexadecimal=");
     printf("0X%X\n",input);                     /*Print the Hexadecimal input*/
     check1=input&0xF;                                /*Bitwise and operation  to check if any last 3 bits of last 4 bits are on*/
@@ -94,13 +94,13 @@ int main()
 
 }
 
-void dec2bin(int Decimal)                            /*Function declaration to convert decimal to binary */
+void dec2bin( int32_t Decimal)                            /*Function declaration to convert decimal to binary */
 {
-    int i = 1;                                       /*Initializing value i needed to be used later*/
-    int length = 16;                                 /*length of binary bits which the decimal has to be converted into*/
+    int32_t i = 1;                                       /*Initializing value i needed to be used later*/
+    int32_t length = 16;                                 /*length of binary bits which the decimal has to be converted into*/
     char bin[17];                                    /*Initializing array where binary value will be stored*/
     bin[16] = '\0';                                  /*Putting the lats value of array as null*/
-    int j = 15;                                      /*Initializing value j which will be the last element of array*/
+    int32_t j = 15;                                      /*Initializing value j which will be the last element of array*/
     while (length)                                   /*while length of binary bits remains more than 1 while loop executes*/
     {
         if(Decimal&i)                                /*Checking if bitwise and of Decimal Value and i is 1 */
