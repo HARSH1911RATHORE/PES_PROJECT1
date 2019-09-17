@@ -25,7 +25,7 @@
 *@param radix value
 *@param numerical input value to be converted 
 *
-*@return void
+*@return int
 */
 int32_t dec (int32_t r, int32_t n);
 
