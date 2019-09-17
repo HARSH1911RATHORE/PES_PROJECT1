@@ -1,3 +1,12 @@
+/**
+ *@file PES_PROJECT1_PROGRAM3.h
+ *@brief takes and prints input hexadecimal value and does a sequence of operations on it
+ *used online gdb,code blocks and gcc development environment on windows for compiling,debugging, running the program
+ *@author Harsh Rathore 
+ *@date September 14 2019 
+ *@version 1.0
+ *
+ */ 
 #include<stdio.h>
 void dec2bin(int Decimal);                      /*Function prototype to convert decimal to binary */
 int main()
