@@ -6,7 +6,8 @@ int main()
     printf("The input in Hexadecimal=");
     printf("0X%X\n",input);                     /*Print the Hexadecimal input*/
     check1=input&0xF;                                /*Bitwise and operation  to check if any last 3 bits of last 4 bits are on*/
-    if (check1==0X7||check1==0XB||check1==0XD||check1==0XE)         /*check if 3 of the last 4 bits are on and print true if yes and false if not*/
+    if (check1==0X7||check1==0XB||check1==0XD||check1==0XE) /*check if 3 of the last 4 bits are on and print true if yes
+                                                                        and false if not*/
     {
         printf("TRUE that only 3 of the last 4 bits are on \t");
     }
@@ -19,12 +20,14 @@ int main()
     dec2bin(input);                                                    /*Function call to convert decimal to binary */
     printf("\n");                                                /*goto next line*/
     printf("\nThe Reverse of the byte order in Hexadecimal=");
-    operation1=((input>>8)|(input<<8));                        /*Reverse the byte order  by shifting the input bitwise left and right by 8 bits
-                                                                                and bitwise or*/
+    operation1=((input>>8)|(input<<8));                        /*Reverse the byte order  by shifting the input bitwise left 
+                                                                and right by 8 bits and do bitwise or*/
     byte_rev=operation1&0x0000FFFF;                            /* Bitwise or with  0x0000FFFF to get the required output*/
     printf("0X%X\n",byte_rev);
-    check2=byte_rev&0XF;                                      /*Bitwise and operation  to check if any last 3 bits of last 4 bits are on*/
-    if (check2==0X7||check2==0XB||check2==0XD||check2==0XE)    /*check if 3 of the last 4 bits are on and print true if yes and false if not*/
+    check2=byte_rev&0XF;                                      /*Bitwise and operation  to check if any last 3 bits of 
+                                                                    last 4 bits are on*/
+    if (check2==0X7||check2==0XB||check2==0XD||check2==0XE)    /*check if 3 of the last 4 bits are on and print true if 
+                                                                    yes and false if not*/
     {
         printf("TRUE that only 3 of the last 4 bits are on \t");
     }
@@ -38,11 +41,12 @@ int main()
     printf("\n");
     printf("\nThe Rotation of result by 4 bits to the left in Hexadecimal=");
     operation2=((byte_rev<<4)|(byte_rev>>12));                /*Rotate bits left by 4 bits by shifting the input bitwise
-                                                                                    left and right by 4 and bits respectively and bitwise or*/
+                                                                left and right by 4 and bits respectively and bitwise or*/
     rot4left=operation2&0x0000FFFF;
     printf("0X%X\n",rot4left);
-    check3=rot4left&0XF;                                       /*Bitwise and operation  to check if any last 3 bits of last 4 bits are on*/
-    if (check3==0X7||check3==0XB||check3==0XD||check3==0XE) /*check if 3 of the last 4 bits are on and print true if yes and false if not*/
+    check3=rot4left&0XF;                               /*Bitwise and operation  to check if any last 3 bits of last 4 bits are on*/
+    if (check3==0X7||check3==0XB||check3==0XD||check3==0XE) /*check if 3 of the last 4 bits are on and print 
+                                                                        true if yes and false if not*/
     {
         printf("TRUE that only 3 of the last 4 bits are on \t");
     }
@@ -60,9 +64,10 @@ int main()
                                                                                 the input bitwise left and right by 8 and bitwise or*/
     rot8right=operation3&0x0000FFFF;
     printf("0X%X\n",rot8right);
-    check4=rot8right&0XF;                                       /*Bitwise and operation  to check if any last 3 bits of last 4 bits are on*/
+    check4=rot8right&0XF;                               /*Bitwise and operation  to check if any last 3 bits of last 4 bits are on*/
 
-    if (check4==0X7||check4==0XB||check4==0XD||check4==0XE) /*check if 3 of the last 4 bits are on and print true if yes and false if not*/
+    if (check4==0X7||check4==0XB||check4==0XD||check4==0XE) /*check if 3 of the last 4 bits are on and print true 
+                                                                        if yes and false if not*/
     {
         printf("TRUE that only 3 of the last 4 bits are on \t");
     }
