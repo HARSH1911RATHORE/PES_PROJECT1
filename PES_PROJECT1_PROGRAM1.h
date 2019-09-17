@@ -18,6 +18,18 @@
 #include <stdint.h>
 
 /**
+*@brief finds decimal equivalent of a number
+*for a following radix value
+*Input value which needs to converted
+*
+*@param radix value
+*@param numerical input value to be converted 
+*
+*@return void
+*/
+int32_t dec (int32_t r, int32_t n);
+
+/**
 *@brief converts decimal equivalent of input number into binary form
 *
 *Decimal value which needs to be converted
