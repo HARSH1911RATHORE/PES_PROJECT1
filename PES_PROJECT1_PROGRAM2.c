@@ -1,3 +1,12 @@
+/**
+ *@file PES_PROJECT1_PROGRAM2.h
+ *@brief checks a set of input value and prints if they are digits,lowercase,secial character,uppercase,whitespace 
+ *used online gdb,code blocks and gcc development environment on windows for compiling,debugging, running the program
+ *@author Harsh Rathore 
+ *@date September 14 2019 
+ *@version 1.0
+ *
+ */ 
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
