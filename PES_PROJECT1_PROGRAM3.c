@@ -1,5 +1,5 @@
 /**
- *@file PES_PROJECT1_PROGRAM3.h
+ *@file PES_PROJECT1_PROGRAM3.c
  *@brief takes and prints input hexadecimal value and does a sequence of operations on it
  *used online gdb,code blocks and gcc development environment on windows for compiling,debugging, running the program
  *@author Harsh Rathore 
