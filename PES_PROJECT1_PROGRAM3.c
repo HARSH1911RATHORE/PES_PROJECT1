@@ -7,7 +7,8 @@
  *@version 1.0
  *
  */ 
-#include<stdio.h>
+#include <stdio.h>
+#include <stdint.h>
 void dec2bin(int Decimal);                      /*Function prototype to convert decimal to binary */
 int main()
 {
